@@ -1,0 +1,13 @@
+Unsupposrted library path: /srv/programming/projects/forge/cuboidentities/1.12.2/build/classes/java/api
+Unsupposrted library path: /srv/programming/projects/forge/cuboidentities/1.12.2/build/resources/api
+Symbol range map extraction starting
+Processing 3 files
+startProcessing "transfarmer/invisibleentities/Main.java" md5: 57f2473b888dca0ae8a586c96027406c
+endProcessing "transfarmer/invisibleentities/Main.java"
+
+startProcessing "transfarmer/invisibleentities/event/EventListeners.java" md5: 6bddcf977257ddbab94f09fb29c6a2b6
+endProcessing "transfarmer/invisibleentities/event/EventListeners.java"
+
+startProcessing "transfarmer/invisibleentities/util/ReflectUtil.java" md5: 97c0b6f2fc2bf434e9935100e7f7f160
+endProcessing "transfarmer/invisibleentities/util/ReflectUtil.java"
+

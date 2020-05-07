@@ -1,0 +1,42 @@
+Processing 3 files
+Start Processing: transfarmer/invisibleentities/Main.java
+Import: net.minecraftforge.fml.common.Mod
+Import: org.apache.logging.log4j.LogManager
+Import: org.apache.logging.log4j.Logger
+Import: java.lang.management.ManagementFactory
+End  Processing: transfarmer/invisibleentities/Main.java
+
+Start Processing: transfarmer/invisibleentities/event/EventListeners.java
+New Key: class net/minecraftforge/client/event/RenderLivingEvent
+Rename method net/minecraft/command/ICommandSender/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[1041,1055]::getDisplayName->func_145748_c_
+Rename method net/minecraft/util/text/ITextComponent/getFormattedText ()Ljava/lang/String;[1058,1074]::getFormattedText->func_150254_d
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2837,2849]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[2852,2858]::player->field_71439_g
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[2887,2906]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[2904,2911]::isEmpty->func_190926_b
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemOffhand ()Lnet/minecraft/item/ItemStack;[2930,2948]::getHeldItemOffhand->func_184592_cb
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[2947,2954]::isEmpty->func_190926_b
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.entity.EntityLiving
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraftforge.client.event.RenderHandEvent
+Import: net.minecraftforge.client.event.RenderLivingEvent
+Import: net.minecraftforge.fml.common.Mod.EventBusSubscriber
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: transfarmer.invisibleentities.Main
+Import: transfarmer.invisibleentities.util.ReflectUtil
+Import: static transfarmer.invisibleentities.util.ReflectUtil.renderLivingLabel
+End  Processing: transfarmer/invisibleentities/event/EventListeners.java
+
+Start Processing: transfarmer/invisibleentities/util/ReflectUtil.java
+Import: net.minecraft.client.renderer.entity.Render
+Import: net.minecraft.entity.Entity
+Import: transfarmer.invisibleentities.Main
+Import: javax.annotation.Nonnull
+Import: java.lang.reflect.InvocationTargetException
+Import: java.lang.reflect.Method
+Import: static transfarmer.invisibleentities.Main.DEBUG
+End  Processing: transfarmer/invisibleentities/util/ReflectUtil.java
+

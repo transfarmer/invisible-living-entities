@@ -1,0 +1,18 @@
+[
+    {
+        "modid": "invisiblelivingentities",
+        "name": "invisible living entities",
+        "description": "cancels living entity rendering and instead renders their names",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "https://github.com/transfarmer/invisible-entities",
+        "updateUrl": "",
+        "authorList": [
+            "transfarmer"
+        ],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]

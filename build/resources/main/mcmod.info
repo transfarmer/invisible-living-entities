@@ -1,0 +1,18 @@
+[
+    {
+        "modid": "cuboidentities",
+        "name": "cuboid entities",
+        "description": "renders entities as cuboids",
+        "version": "0.0.0",
+        "mcversion": "1.12.2",
+        "url": "https://github.com/transfarmer/cuboidentities",
+        "updateUrl": "",
+        "authorList": [
+            "transfarmer"
+        ],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
