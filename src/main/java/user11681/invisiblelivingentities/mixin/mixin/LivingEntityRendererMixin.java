@@ -14,6 +14,7 @@ import net.minecraft.entity.passive.CowEntity;
 import net.minecraft.entity.passive.DolphinEntity;
 import net.minecraft.entity.passive.DonkeyEntity;
 import net.minecraft.entity.passive.FishEntity;
+import net.minecraft.entity.passive.FoxEntity;
 import net.minecraft.entity.passive.HorseEntity;
 import net.minecraft.entity.passive.LlamaEntity;
 import net.minecraft.entity.passive.OcelotEntity;
@@ -42,8 +43,8 @@ public abstract class LivingEntityRendererMixin<T extends LivingEntity, M extend
         if (entity instanceof ChickenEntity || entity instanceof PigEntity || entity instanceof CowEntity || entity instanceof SheepEntity
                 || entity instanceof HorseEntity || entity instanceof BeeEntity || entity instanceof DonkeyEntity || entity instanceof LlamaEntity
                 || entity instanceof PandaEntity || entity instanceof PolarBearEntity || entity instanceof WolfEntity || entity instanceof OcelotEntity
-                || entity instanceof CatEntity || entity instanceof ParrotEntity || entity instanceof FishEntity || entity instanceof TurtleEntity
-                || entity instanceof SquidEntity || entity instanceof DolphinEntity || entity instanceof PlayerEntity) {
+                || entity instanceof CatEntity || entity instanceof ParrotEntity  || entity instanceof TurtleEntity || entity instanceof FoxEntity
+                || entity instanceof SquidEntity || entity instanceof DolphinEntity || entity instanceof FishEntity || entity instanceof PlayerEntity) {
             this.renderLabelIfPresent(entity, entity.getDisplayName(), matrices, vertexConsumerProvider, light);
 
             info.cancel();
